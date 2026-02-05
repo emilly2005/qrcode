@@ -1,0 +1,45 @@
+
+  .quadrado {
+    width: 250px ;
+    height:460px ;
+    padding: 20px;
+    border: 1px ;
+    margin: 8px ;
+    background-color:var(--White);
+    border-radius: 20px;
+    margin-top:90px;
+    
+  }
+  body{
+    background-color: var(--Slate-300);
+    justify-items: center;
+  }
+
+  img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 102%;
+  border-radius: 10px;
+  }
+
+ :root {
+--White: hsl(0, 0%, 100%);
+--Slate-300: hsl(212, 45%, 89%);
+--Slate-500:  hsl(216, 15%, 48%);
+--Slate-900: hsl(218, 44%, 22%);
+ }
+ .testo {
+  text-align:center ;
+   font-family: "outfit",sans-serif;
+   font-size: 22px;
+ } 
+
+ p {
+  color: var(--Slate-500);
+ }
+h1{
+  color: var(--Slate-900);
+}
+
+
